@@ -2,7 +2,7 @@ from rest_framework import permissions
 
 from django.contrib import admin
 from rest_framework_simplejwt.views import TokenObtainPairView
-from rest_framework_swagger.views import get_swagger_view
+# from rest_framework_swagger.views import get_swagger_view
 from django.urls import path, include
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
